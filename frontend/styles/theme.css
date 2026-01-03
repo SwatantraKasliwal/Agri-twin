@@ -1,0 +1,50 @@
+.app {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.header {
+  background: #2e7d32;
+  color: white;
+  padding: 15px;
+}
+
+.header nav a {
+  color: white;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+.page {
+  padding: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.action-card {
+  background: #e3f2fd;
+  padding: 30px;
+  margin-top: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.step-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.explanation li {
+  margin-bottom: 8px;
+}
